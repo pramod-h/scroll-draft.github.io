@@ -3697,6 +3697,10 @@ ul.simple li:before {
 }
 
 @media (max-width:767px) {
+    body>.bg.Desktop {
+        display: none;
+    }
+
     .ajax-form-alert {
         width: 280px;
         margin-left: -140px
