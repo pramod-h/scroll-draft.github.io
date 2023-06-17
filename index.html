@@ -96,7 +96,9 @@
         </ul>
     </div>
     <!-- BEGIN: Page content -->
-    <div class="youtube-bg" data-video="8PPu4MfdnnU" data-alternative="images/bg/stephane/3.jpg"></div>
+    <video class="videoBg" id="videoBg" controls="true" autoplay="autoplay" loop="true" muted defaultmuted playsinline>
+        <source src="./images/bg/ede0e1cd-a795-4bd3-9391-b02af94cf0cc.mp4" type="video/mp4">
+    </video>
     <section id="home">
         <div class="view">
             <div class="content home-suzi full-size colors-c background-40-dark">
@@ -123,21 +125,21 @@
                         clothing.</p>
                     <p class="lead">Our brand has been in the line of exquisite customization of aspired
                         outfits that are
-                        handcrafted to perfection since the 1990’s.<br>
+                        handcrafted to perfection since the 1990’s.<br><br>
                         We at She Temple look forward to giving each outfit a personal and unique touch,
                         something that originally belongs to you. Those distinguishing features that make
                         your
-                        clothing unique and special.<br>
+                        clothing unique and special.
                         Bespoke clothing therefore helps in defining a person’s unique style, unique taste,
                         unique
-                        body and comfort level.<br>
+                        body and comfort level.<br><br>
                         We specialize in hand embroidery, stitching and personalized designing and love to
                         keep the
                         Indian unique hand karigiri/embroideries alive, whatever the type of embroidery we
                         can do
                         it all. We have a highly skilled team with decades of experience with us in making
                         dream
-                        attires a reality!<br>
+                        attires a reality!<br><br>
                         We are a brand that strongly believes, Fashion changes but style is personal and
                         permanent.
                         Every human finds and defines beauty differently and all of us are glamourous in our
@@ -156,11 +158,11 @@
                 src="images/bg/picjumbo/picjumbo.com_HNCK1805.jpg" />
             <div class="content full-size colors-h">
                 <div class="container">
-                    <h2>Contact</h2>
-                    <p class="header-details">Keep In Touch</p>
+                    <h2>Book An Appointment</h2>
+                    <p class="header-details">Get In Touch with us</p>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="text-left scroll-in-animation" data-animation="fadeInLeft">
+                            <div class="text-left" data-animation="fadeInLeft">
                                 <p class="big-font">
                                     You can block an appointment two working days prior and have a face-to-face design
                                     consultation at the studio or a virtual video call design consultation during the
@@ -185,7 +187,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="text-left scroll-in-animation" data-animation="fadeInRight">
+                            <div class="text-left" data-animation="fadeInRight">
                                 <p>Please Provide us with details so we could take in your appointments and book a slot
                                 </p>
                                 <form class="ajax-form" data-message-class="colors-e background-95 border heading"
@@ -193,18 +195,16 @@
                                     <div class="row">
                                         <div class="col-md-6 control-group ap-type">
                                             <div class="placeholder">Face to Face Design Consultation</div>
-                                            <input type="radio" name="ap-type"
-                                                required>
+                                            <input type="radio" name="ap-type" required>
                                         </div>
                                         <div class="col-md-6 control-group ap-type">
                                             <div class="placeholder">Video Consultation</div>
-                                            <input type="radio" name="ap-type"
-                                                required>
+                                            <input type="radio" name="ap-type" required>
                                         </div>
 
                                         <div class="col-md-6 control-group">
                                             <div class="placeholder">Date</div>
-                                            <input type="date" name="date"                                                placeholder="Your Name"
+                                            <input type="date" name="date" placeholder="Your Name"
                                                 data-validation-required-message="Please fill the required field."
                                                 required>
                                             <div class="help-block"></div>
@@ -212,7 +212,7 @@
 
                                         <div class="col-md-6 control-group">
                                             <div class="placeholder">Time Slot</div>
-                                            <input type="time" name="time"                                                placeholder="Your Name"
+                                            <input type="time" name="time" placeholder="Your Name"
                                                 data-validation-required-message="Please fill the required field."
                                                 required>
                                             <div class="help-block"></div>
@@ -262,17 +262,30 @@
                         <b>Cancellation Policy</b>
                         <br>
                         <i>Cancellations are undertaken within 12 working hours of order taken, on
-                        cancellation 10% of the total amount is taken for design consultation.</i>
+                            cancellation 10% of the total amount is taken for design consultation.</i>
                     </p>
                     <div class="text-center">
-                        <a class="map-open button background-lite-b border-heading-b heading-b"
-                            data-map-overlay=".map-overlay" href="#">Locate Us on Map</a>
+                        <a class="map-open button background-lite-b border-heading-b heading-b" href="#map">Locate Us on
+                            Map</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END: Page content -->
+
+    <section id="map">
+        <div class="view">
+            <div class="content home-suzi full-size colors-c background-40-dark">
+                <div class="container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7431600874597!2d77.5827067!3d12.924222299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159fa8461e29%3A0x760cd5ff6849a10b!2sShe%20Temple%20Boutique!5e0!3m2!1sen!2sin!4v1686992259596!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- BEGIN: Footer -->
     <footer class="colors-g page-transition non-preloading">
         <div class="container scroll-in-animation" data-animation="fadeInDown">

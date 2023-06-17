@@ -2788,6 +2788,14 @@ body>video.video-bg {
     pointer-events: none
 }
 
+body>video.videoBg {
+    position: fixed;
+    inset-inline: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+}
+
 html.mobile .vimeo-bg,
 html.mobile .youtube-bg,
 html.mobile video.bg {
@@ -2800,6 +2808,10 @@ html.mobile video.bg {
 }
 
 @media (min-width:1200px) {
+    body>video.videoBg {
+        display: none;
+    }
+
     .process .process-row:before {
         top: 75px;
         left: 0;
@@ -3993,7 +4005,7 @@ ul.pagination li {
 }
 
 .lead {
-    text-align: center;
+    text-align: justify;
     font-size: 16px;
     margin-bottom: 40px;
     line-height: 24px

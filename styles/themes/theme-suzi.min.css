@@ -3562,7 +3562,7 @@ footer.colors-d.border-top {
 
 .colors-e .background-solid,
 .colors-e.background-solid {
-    background-color: #141414
+    background-color: #000
 }
 
 .colors-e .background-hard,
@@ -5298,7 +5298,7 @@ footer.colors-f.border-top {
 
 .colors-g {
     color: #afafaf;
-    background-color: #101010
+    background-color: #000
 }
 
 .colors-g .bg-color {
