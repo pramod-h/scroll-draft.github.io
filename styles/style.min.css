@@ -5228,6 +5228,7 @@ html {
   width: 100%;
   overflow: hidden;
   background-color: #000;
+  pointer-events: none;
 }
 
 #gallery img {

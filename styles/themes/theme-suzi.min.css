@@ -2374,6 +2374,13 @@ a.colors-c:hover {
     color: #fff
 }
 
+@media screen and (max-width: 768px) {
+    .colors-c .title {
+        max-width: 322px;
+        margin: 0 auto;
+    }
+}
+
 .colors-c .header-details.highlight,
 .colors-c .slogan,
 .colors-c .subtitle.highlight,
