@@ -3530,6 +3530,17 @@ ul.simple li {
   font-weight: bold;
 }
 
+.placeholder {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .numbers {
+    gap: 5px;
+    font-size: 13px;
+  }
+}
+
 .numbers a {
   color: gold !important;
 }
