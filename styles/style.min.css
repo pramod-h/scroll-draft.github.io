@@ -2806,11 +2806,13 @@ html.mobile video.bg {
   line-height: 36px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 520px) {
   body > video.videoBg {
     display: none;
   }
+}
 
+@media (min-width: 1200px) {
   .process .process-row:before {
     top: 75px;
     left: 0;
