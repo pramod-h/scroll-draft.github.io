@@ -235,7 +235,7 @@
                                 <p>Please provide us with details so we can take in your appointments and book a slot.
                                 </p>
                                 <form class="ajax-form" data-message-class="colors-e background-95 border heading"
-                                    action="contact.php" method="post" novalidate="novalidate">
+                                    action="mail.php" method="post" novalidate="novalidate">
                                     <div class="row">
                                         <div class="col-md-6 control-group ap-type">
                                             <div class="placeholder">Face to Face Design Consultation</div>
@@ -278,19 +278,27 @@
                                                 required>
                                             <div class="help-block"></div>
                                         </div>
-                                        <div class="col-md-12 control-group">
-                                            <div class="alt-placeholder">Description</div>
-                                            <textarea name="your-message" placeholder="Message"
+                                        <div class="col-md-6 control-group">
+                                            <div class="alt-placeholder">Email</div>
+                                            <input type="text" name="your-email" value="" size="40"
+                                                placeholder="Your Email"
                                                 data-validation-required-message="Please fill the required field."
-                                                required></textarea>
+                                                required>
                                             <div class="help-block"></div>
                                         </div>
                                         <div class="col-md-6 control-group">
                                             <div class="alt-placeholder">Please mention you comfort price range </div>
                                             <input type="text" name="price-range" value="" size="40"
-                                                placeholder="Price Range"
+                                            placeholder="Price Range"
+                                            data-validation-required-message="Please fill the required field."
+                                            required>
+                                            <div class="help-block"></div>
+                                        </div>
+                                        <div class="col-md-12 control-group">
+                                            <div class="alt-placeholder">Description</div>
+                                            <textarea name="your-message" placeholder="Message"
                                                 data-validation-required-message="Please fill the required field."
-                                                required>
+                                                required></textarea>
                                             <div class="help-block"></div>
                                         </div>
                                         <div class="col-md-12 form-actions">
