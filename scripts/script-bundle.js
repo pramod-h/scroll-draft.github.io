@@ -1570,17 +1570,25 @@
             b.find(".slider").each(function() {
                 var a = d(this);
                 a.slick({
-                    autoplay: !0,
-                    dots: !0
+                    autoplay: true,
+                    autoplaySpeed: 800,
+                    infinite: true,
+                    pauseOnHover: false,
+                    cssEase: 'linear',
+                    dots: false
                 })
             }), b.find(".carousel").each(function() {
                 var a = d(this);
                 a.slick({
-                    autoplay: !1,
+                    autoplay: true,
+                    autoplaySpeed: 800,
                     dots: !0,
-                    infinite: !0,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    arrows: 0,
+                    infinite: true,
+                    cssEase: 'linear',
+                    pauseOnHover: false,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
                     responsive: [{
                         breakpoint: 1e3,
                         settings: {
